@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercio 2 - Logtrust</title>
+    <!-- STYLE -->
+    <style>
+        footer {
+			position: relative;
+			padding: 5px 0px;
+			background: lightgray;
+			text-align: center;
+			color: #fff;
+			font-size: 14px;
+        }
+    </style>
+    <!--GLOBAL JS -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <!--CUSTOM JS -->
+    <script type="text/javascript" src="javascript/lib/underscore-min.js"></script>
+    <script src="javascript/getData.js"></script>
+    <script src="javascript/createCharts.js"></script>
+    <script src="javascript/lineHighcharts.js"></script>
+</head>
+<body>
+	<div id="irregularTime" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+	<div id="pie" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+	
+	<script type="text/javascript">
+		var linealChart;
+		var pieChart;
+		$(document).ready(main());
+	</script>
+</body>
+<footer>
+    <div>
+        <p>Desarrollado por Rafael Ángel Segura Giraldo</p>
+        <p>rafaelangel1987@gmail.com</p>
+        <p>2017</p>
+    </div>	
+</footer>
+</html>
